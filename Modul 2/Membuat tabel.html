@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Membuat tabel paling sederhana</title>
+    <title>demo span atau merge cell</title>
 </head>
 <body>
-    <table border="1" align="center" cellspacing= 0 cellpadding= 5> <!-- cellspacing= 0 untuk menghilangkan jarak antar cell -->
-        <caption>Daftar Mahasiswa Kelas z </caption>
+    <table border="1" align="center" cellspacing= 0 cellpadding= 5>
+        <caption>Daftar Mahasiswa Kelas z </caption>       
         <tr>
-            <th width="50">No</th> <!-- width untuk mengatur lebar kolom -->
-            <th width="100">NIM</th>
-            <th width="200">Nama</th>
+            <th width="50">No</th>
+            <th width="300" colspan=2 >NIM dan Nama</th> <!-- colspan=2 artinya kolom NIM dan Nama akan digabung menjadi 1 kolom -->
             <th width="50">Prodi</th>
         </tr>
+
+        <!-- baris pertama -->
         <tr>
             <td>1</td>
             <td>2253</td>
             <td>Yu</td>
-            <td>Ti</td>
+            <td align="center" rowspan=3>Ti</td> <!-- rowspan=3 artinya kolom Prodi akan digabung menjadi 1 kolom -->
         </tr>
+        <!-- baris kedua -->
         <tr>
             <td>2</td>
             <td>2254</td>
             <td>Yo</td>
-            <td>Ti</td>
         </tr>
+        <!-- baris ketiga -->
         <tr>
             <td>3</td>
             <td>2255</td>
             <td>Yi</td>
-            <td>Ti</td>
         </tr>
     </table>
 </body>
