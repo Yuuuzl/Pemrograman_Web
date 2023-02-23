@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Membuat tabel </title>
+</head>
+<body>
+    <style> 
+        caption {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        th {
+            background-color: #fff;
+            color: #000;
+        }
+        tr:nth-child(even) {
+            background-color: #eee;
+        }
+        tr:nth-child(odd) {
+            background-color: #fff;
+        }
+    </style>
+    <!-- membuat tabel dan format tabel -->
+    <table cellpadding="10" cellspacing="0" align="center" style="border-collapse: collapse;">
+        <colgroup>
+            <col span="4" style="border-right: 1px solid #000;">
+        </colgroup> 
+        <caption>Daftar Mahasiswa Kelas z </caption> <!-- membuat judul tabel -->
+        <tr align="center" style="border-top:#000 solid thin;"> <!-- membuat baris -->
+            <th width="10">No</th> <!-- membuat kolom -->
+            <th width="100">NIM</th>
+            <th width="100">Nama</th>
+            <th width="100">Prodi</th>
+            <th width="100" colspan="2";">Grade</th> <!-- membuat kolom yang berisi 2 kolom -->
+        </tr>
+        <tr align="center" style="border-top:#000 solid thin;"> 
+            <td>1</td>
+            <td>2253</td>
+            <td>Yu</td>
+            <td rowspan="4" align="center">Ti</td> <!-- membuat kolom yang berisi 4 baris -->
+            <td>A</td>
+            <td>4</td>
+        </tr>
+        <tr align="center" >
+            <td>2</td>
+            <td>2254</td>
+            <td>Yo</td>
+            <td>B</td>
+            <td>3.5</td>
+        </tr>
+        <tr align="center" style="border-top:#000 solid thin;">
+            <td>3</td>
+            <td>2255</td>
+            <td>Yi</td>
+            <td>C</td>
+            <td>3</td>
+        </tr>
+        <tr align="center" style="border-bottom:#000 solid thin;">
+            <td>4</td>
+            <td>2256</td>
+            <td>Ya</td>
+            <td>C</td>
+            <td>3.5</td>
+        </tr>
+    </table>
+</body>
+</html>
