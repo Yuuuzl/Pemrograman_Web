@@ -1,0 +1,15 @@
+.style1 {
+    background-color : #edddd4;
+}
+.style2 {
+    color: black;
+    font-family: 'pacifico', cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.style3 {
+    color: black;
+    font-family: 'fantasy', cursive;
+    font-size: 15px;
+}
