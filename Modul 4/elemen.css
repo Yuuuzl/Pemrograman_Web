@@ -1,0 +1,39 @@
+body {
+    background: url(../img/sunset.jpg) no-repeat center center fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+    position: relative;
+}
+.font1 {
+    color: white;
+    font-family: 'pacifico', cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    line-height: 15px;
+}
+.border1 {
+    
+    color: wheat;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.border2 {
+    color: wheat;
+    border: 1px dotted white;
+    border-radius: 30px;
+    padding: 20px 10px 5px 40px;
+    margin: 10px;
+}
+.border3 {
+    color: wheat;
+    border: 1px dashed white;
+    border-radius: 10px;
+    padding-left: 30px;
+
+}
