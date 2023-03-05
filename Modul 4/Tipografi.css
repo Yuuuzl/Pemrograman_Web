@@ -1,0 +1,30 @@
+body {
+    background: url(../img/sunset.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.style_font1 {
+    color: white;
+    font-family: 'pacifico', cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    line-height: 15px;
+}
+.style_font2 {
+    color: white;
+    font-family: 'fantasy', cursive;
+    font-size: 15px;
+    line-height: 36px;
+}
+.style_font3{
+    color: whitesmoke;
+    font-family: 'pacifico', cursive;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+}
