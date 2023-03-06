@@ -1,0 +1,13 @@
+body{
+    background: url(../img/sunset.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+.round {
+    width: 250px;
+    height: 200px;
+    border: 1px solid white;
+    border-color: white;
+    border-radius: 15%;
+    padding: 20px;
+}
