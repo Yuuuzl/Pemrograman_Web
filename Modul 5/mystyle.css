@@ -1,0 +1,43 @@
+#wrapper {
+    margin: auto;
+    width: 750px;
+    border: 2px solid #000;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#header {
+    padding: 20px;
+    height: 80px;
+    border: 1px solid red;
+}
+
+#inner {
+    float : left;
+    margin: 15px 0;
+    border: 1px solid blue;
+}
+#sidebar {
+    padding: 10px;
+    float : left;
+    margin-right : 20px;
+    width: 160px;
+    height: 330px;
+    border: 1px solid green;
+}
+#content {
+    padding: 10px;
+    float : left;
+    width: 524px;
+    height: 330px;
+    border: 1px solid green;
+}
+
+#footer {
+    padding: 20px;
+    clear: both;
+    height: 50px;
+    border: 1px solid red;
+}
