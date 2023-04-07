@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiruan Landing Page Smartfren</title>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <style>
+      .page-contents {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #none;
+      }
+      .login-content {
+        padding: 100px 30px;
+        width: 600px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .btn-social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid #a9a2a2;
+        margin-bottom: 20px;
+      }
+        .login-image {
+            width: 720px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .grs-tps {
+            margin-bottom: 30px;
+            margin-top: 30px;
+            text-align: center;
+            position: relative;
+            width: 100%;
+        }
+        .grs-tps::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: #ede1e1;
+            z-index: -1;
+        }
+        .grs-tps::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 0;
+            width: 100%;
+            height: 1px;
+            background-color: #ede1e1;
+            z-index: -2;
+        }
+        .garis_vertikal {
+            border-left: 1px solid #e5e5e5;
+            height: 20px;
+            margin: 0 10px;
+        }
+        .button :hover {
+            background-color: #e5e5e5;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="page-contents">
+      <div class="container" style="background-color: none;">  
+        <div class="row">
+            <div class="login-content border col-sm-6" style="background-color: none; height: 640px; border: 1px ;">
+                <div class="mb-3">
+                  <input type="email" class="form-control py-3" id="exampleFormControlInput1" placeholder="Nomor Smartfren / Email *">
+                </div>
+                <div style="display: flex; justify-content: end;">
+                  <p><a href="" style="color: #646161;">Lupa Kata Sandi</a> 
+                    <div class="garis_vertikal"></div>
+                    <span> <a href="" style="color: #646161;">Lupa Email</a></span>
+                  </p>
+                </div>
+                <div>
+                  <button style="color: #ff1659;" class="bg-danger text-white py-3 w-100 fw-bold" >
+                    SELANJUTNYA
+                  </button>
+                  <div class="grs-tps">
+                   <p class="text-center"> <span style="background-color: white ; z-index: 2; padding: 0 20px;">atau masuk dengan</span></p> 
+                  </div>
+                  <div class="button">
+                    <button class="btn btn-social w-100 fw-bold"><img width="30px" style="margin-right: 10px;" src="google.png">Google</button>
+                    <button class="btn btn-social w-100 fw-bold"><img width="30px" style="margin-right: 10px;" src="fb.png" > Facebook</button> 
+                  </div>
+
+                  <div>
+                    <p class="text-center"  style="margin-top: 30px; margin-bottom: 40px" >Belum punya akun? <span> <a class="fw-bold" href="" style="color: red ;">Daftar</a></span>
+                    </p>
+                    <p class="text-center" style="margin-bottom: 30px">Kartu SIM baru?  <span> <a class="fw-bold" href="" style="color: rgb(0, 0, 0) ;">Aktifkan SIM</a></span> 
+                  </div>
+
+                </div>
+            </div>
+            <div class="col-sm-6" style="background-color: rgb(255, 255, 255); height: 560px; ">
+                <div class="login-image" style="align-items: center; justify-content: center;">
+                    <img width="400" height="400" src="https://www.smartfren.com/app/uploads/2021/10/Desktop-Image@3x-1024x1024.png" class="image wp-image-25660  attachment-large size-large" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.smartfren.com/app/uploads/2021/10/Desktop-Image@3x-1024x1024.png 1024w, https://www.smartfren.com/app/uploads/2021/10/Desktop-Image@3x-300x300.png 300w, https://www.smartfren.com/app/uploads/2021/10/Desktop-Image@3x-150x150.png 150w, https://www.smartfren.com/app/uploads/2021/10/Desktop-Image@3x-768x768.png 768w, https://www.smartfren.com/app/uploads/2021/10/Desktop-Image@3x-12x12.png 12w, https://www.smartfren.com/app/uploads/2021/10/Desktop-Image@3x.png 1185w" sizes="(max-width: 640px) 100vw, 640px">
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
