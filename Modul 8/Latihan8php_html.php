@@ -138,6 +138,76 @@
     // Output: integer     
     ?>
 
-    <h2></h2>
+    <h2> 4. Pernyataan Seleksi </h2>
+
+    <!-- Pernyataan if -->
+    <!-- Pernyataan if digunakan untuk mengeksekusi satu blok kode jika kondisi bernilai benar -->
+    <?php
+        $nilai = 80;
+        if ($nilai >= 60) {
+            echo 'Nilai Anda: ' . $nilai . '(LULUS)';
+        }
+    ?>
+
+    <!-- Pernyataan if-else -->
+    <!-- Pernyataan if-else digunakan untuk mengeksekusi satu blok kode jika kondisi bernilai benar dan mengeksekusi blok kode lain jika kondisi bernilai salah -->
+    <?php
+        $nilai = 80;
+        if ($nilai >= 60) {
+            echo 'Nilai Anda: ' . $nilai . '(LULUS)';
+        } else {
+            echo 'Nilai Anda: ' . $nilai . '(TIDAK LULUS)';
+        }
+    ?>
+
+    <!-- Pernyataan if-elseif -->
+    <!-- Pernyataan ini sebenarnya merupakan ekspansi dari if-else, di mana di 
+    ditambahkan lagi blok if-elseif. Bentuk pernyataan if-elseif 
+    memungkinkan kita untuk menciptakan seleksi yang lebih kompleks.  -->
+    <?php
+        $nilai = 80;
+        if ($nilai >= 80) {
+            echo 'Nilai Anda: ' . $nilai . '(A)';
+        } elseif ($nilai >= 70) {
+            echo 'Nilai Anda: ' . $nilai . '(B)';
+        } elseif ($nilai >= 60) {
+            echo 'Nilai Anda: ' . $nilai . '(C)';
+        } elseif ($nilai >= 50) {
+            echo 'Nilai Anda: ' . $nilai . '(D)';
+        } else {
+            echo 'Nilai Anda: ' . $nilai . '(E)';
+        }
+    ?>
+
+    <!-- Pernyataan switch -->
+    <!-- Pernyataan switch digunakan untuk mengeksekusi salah satu blok kode yang
+    ada di dalamnya, berdasarkan nilai variabel yang diberikan. -->
+    <?php
+        $i = 0;
+        if ($i == 0) {
+            echo "i equals 0";
+        } elseif ($i == 1) {
+            echo "i equals 1";
+        } elseif ($i == 2) {
+            echo "i equals 2";
+        }
+            echo '<br/>';
+
+        // Ekuivalen, dengan pendekatan switch
+        switch ($i) {
+        case 0:
+            echo "i equals 0";
+        break;
+        case 1:
+            echo "i equals 1";
+        break;
+        case 2:
+            echo "i equals 2";
+        break;
+         
+        }
+    ?>
+
+    
 </body>
 </html>
