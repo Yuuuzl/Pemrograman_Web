@@ -95,6 +95,49 @@
         $menikah = false;
         var_dump($menikah);
         // hasil : bool(false)
-    
+    ?>
+
+    <h2> 3. Tipe Data dan Casting </h2>
+    <!-- Tipe data -->
+    <!-- PHP menyediakan fungsi-fungsi berawalan is_ yang dapat dimanfaatkan untuk menuji tipe data suatu variabel -->
+    <?php
+        $nama = 'Rizki';
+        var_dump(is_string($nama));
+        // hasil : bool(true)
+
+        $umur = 20;
+        var_dump(is_int($umur));
+        // hasil : bool(true)
+
+        $tinggi = 1.7;
+        var_dump(is_float($tinggi));
+        // hasil : bool(true)
+        
+        $tinggi = 1.7;
+        var_dump(is_double($tinggi));
+        // hasil : bool(true)
+
+        $tinggi = 1.7;
+        var_dump(is_string($tinggi));
+        // hasil : bool(false)
+    ?>
+
+    <!-- Casting -->
+    <!-- PHP menyediakan fungsi-fungsi berawalan (tipe data) yang dapat digunakan untuk mengubah tipe data suatu variabel -->
+
+    <?php
+    $str = '123abc'; 
+ 
+    // Casting nilai vaiabel $str ke integer
+    $bil = (int) $str; // $bil = 123 
+     
+    echo gettype($str);
+    // Output: string 
+     
+    echo gettype($bil);
+    // Output: integer     
+    ?>
+
+    <h2></h2>
 </body>
 </html>
