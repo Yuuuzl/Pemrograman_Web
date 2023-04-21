@@ -208,6 +208,55 @@
         }
     ?>
 
+    <h2> 5. Pengulangan </h2>
+
+    <!-- Pengulangan while -->
+    <!-- Pada pernyataan ini, ekspresi akan dievaluasi dan pengulangan dieksekusi jika
+        dan hanya jika ekspresi bernilai true.  -->
+    <?php
+    $i = 0;
+    while ($i < 10) {
+        echo $i;
+        // Inkremen counter
+        $i++;
+    }
+    echo '<br/>';
+    ?>
+
+    <!-- Pengulangan do-while -->
+    <!-- Pada pernyataan ini, pengulangan akan dieksekusi sekali, sebelum ekspresi
+        dievaluasi. Setelah itu, pengulangan akan terus dilakukan selama ekspresi
+        bernilai true.  -->
+    <?php
+    $i = 0;
+    do {
+        echo $i;
+        // Inkremen counter
+        $i++;
+    } while ($i < 10);
+    echo '<br/>';
+    ?>
+
+    <!-- Pengulangan for -->
+    <!-- Pernyataan pengulangan ini paling banyak digunakan di dalam program, 
+    khususnya ketika jumlah iterasinya sudah diketahui. -->
+    <?php
+    for ($i = 1; $i <= 10; $i++) {
+        echo $i;
+    }
+    ?>
+
+    <!-- Pengulangan foreach -->
+    <!-- Pernyataan pengulangan ini digunakan untuk mengulang setiap elemen dari
+        array.  -->
+    <?php
+    $colors = array("red", "green", "blue", "yellow");
+    foreach ($colors as $value) {
+        echo "$value <br/>";
+    }
+    ?>
+
     
+
 </body>
 </html>
