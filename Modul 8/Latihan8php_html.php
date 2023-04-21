@@ -256,7 +256,48 @@
     }
     ?>
 
-    
+    <h2> 6. Fungsi dan prosedur </h2>
+    <!-- Keberadaan fungsi/prosedur sangat membantu dalam mengorganisir kode 
+    program dan menerapkan aspek guna ulang. -->
+
+    <!-- Definisi fungsi/prosedur -->
+     <?php
+        // Contoh prosedur
+        function do_print() {
+            // Mencetak informasi timestamp
+        echo time();
+        }
+        // Memanggil prosedur
+        do_print();
+
+        echo '<br />';
+
+        // Contoh fungsi penjumlahan
+        function jumlah($a, $b) {
+            return ($a + $b);
+        }
+        echo jumlah(2, 3);
+        // Output: 5
+        echo '<br />';
+    ?>
+
+    <!-- Argumen fungsi/prosedur -->
+    <?php
+        /**
+        * Mencetak string
+        * $teks nilai string
+        * $bold adalah argumen opsional
+        */
+        function print_teks($teks, $bold = true) {
+            echo $bold ? '<b>' .$teks. '</b>' : $teks;
+        }
+        print_teks('Indonesiaku');
+        // Mencetak dengan huruf tebal
+            echo '<br />';
+        print_teks('Indonesiaku', false);
+        // Mencetak dengan huruf reguler
+    ?>
+
 
 </body>
 </html>
