@@ -42,7 +42,7 @@
 
     <?php
         if (isset($_REQUEST['nama'])) {
-            echo 'Hello, ' . $_SERVER['REQUEST_METHOD'];
+            echo 'Metode, ' . $_SERVER['REQUEST_METHOD'];
         }
     ?>
     
