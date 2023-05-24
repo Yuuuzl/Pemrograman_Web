@@ -6,6 +6,10 @@
         echo "<h3>Kamu berhasil logout.</h3>";
 
     }
+    else {
+        //session tidak muncul karena belum login atau belum berhasil login
+        die ("Minimal login dulu!  login dulu <a href='studikasus.php'> disini</a>");
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">

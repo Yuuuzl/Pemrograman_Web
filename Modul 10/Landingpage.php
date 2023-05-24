@@ -5,7 +5,7 @@
     }
     else {
         //session tidak muncul karena belum login atau belum berhasil login
-        die ("Dah dibilang login dulu!  login dulu <a href='studikasus.php'> disini</a>");
+        die ("Minimal login dulu!  login dulu <a href='studikasus.php'> disini</a>");
     }
 ?> 
 
