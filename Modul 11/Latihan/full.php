@@ -34,7 +34,7 @@ if (isset($_POST['tambah_data'])) {
         <table>
             <tr>
                 <td> Nim </td>
-                <td> <input type="text" name="nim" required> </td>
+                <td> <input type="number" name="nim" required> </td>
             </tr>
             <tr>
                 <td>Nama</td>
@@ -75,9 +75,9 @@ if (isset($_POST['tambah_data'])) {
                 <td><?php echo $d['nama']; ?></td>
                 <td><?php echo $d['alamat']; ?></td>
                 <td>
-                    <a href="lihat_data_full.php?id=<?php echo $d['id']; ?>"> LIHAT </a>
-                    <a href="edit_data_full.php?id=<?php echo $d['id']; ?>">EDIT</a>
-                    <a href="hapus_data_full.php?id=<?php echo $d['id']; ?>">HAPUS</a>
+                    <a href="lihat_data_full.php?nim=<?php echo $d['nim']; ?>"> Lihat </a>
+                    <a href="edit_data_full.php?nim=<?php echo $d['nim']; ?>">Edit</a>
+                    <a href="hapus_data_full.php?nim=<?php echo $d['nim']; ?>">Hapus</a>
                 </td>
             </tr>
             <?php

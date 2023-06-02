@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 02, 2023 at 03:11 PM
+-- Generation Time: Jun 02, 2023 at 04:24 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `data mahasiswa`
+-- Table structure for table `datamahasiswa`
 --
 
-CREATE TABLE `data mahasiswa` (
+CREATE TABLE `datamahasiswa` (
   `no` int(11) NOT NULL,
   `nim` char(11) NOT NULL,
   `nama` varchar(50) NOT NULL,
@@ -35,20 +35,24 @@ CREATE TABLE `data mahasiswa` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `data mahasiswa`
+-- Dumping data for table `datamahasiswa`
 --
 
-INSERT INTO `data mahasiswa` (`no`, `nim`, `nama`, `alamat`) VALUES
-(1, '22537141026', 'wahyu', 'piyungan');
+INSERT INTO `datamahasiswa` (`no`, `nim`, `nama`, `alamat`) VALUES
+(1, '22537141026', 'wahyu', 'piyungan'),
+(5, '22537141021', 'tio', 'bantul'),
+(6, '22537141022', 'boy', 'jaksel'),
+(7, '22537141009', 'Dapi', 'godeang'),
+(8, '22537141011', 'azul', 'xt');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `data mahasiswa`
+-- Indexes for table `datamahasiswa`
 --
-ALTER TABLE `data mahasiswa`
+ALTER TABLE `datamahasiswa`
   ADD PRIMARY KEY (`no`);
 
 --
@@ -56,10 +60,10 @@ ALTER TABLE `data mahasiswa`
 --
 
 --
--- AUTO_INCREMENT for table `data mahasiswa`
+-- AUTO_INCREMENT for table `datamahasiswa`
 --
-ALTER TABLE `data mahasiswa`
-  MODIFY `no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+ALTER TABLE `datamahasiswa`
+  MODIFY `no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
