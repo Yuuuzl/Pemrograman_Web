@@ -52,7 +52,7 @@ if (isset($_POST['tambah_data'])) {
     </form> 
 
     <br>
-    <br>
+    <h3>//---------------------------//</h3>
 
     <h5> Data Mahasiswa </h5>
     <table border="1" cellpadding="15" cellspacing="0" table style="margin-left:auto bgcolor="FFF2F2">
