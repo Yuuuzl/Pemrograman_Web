@@ -68,8 +68,6 @@ if (isset($_POST['login'])) {                                                   
                 </div>
               <?php endif; ?>
 
-              <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
-
               <button class="btn btn-outline-light btn-lg px-5" type="submit" name="login">Login</button>
 
             </form>
